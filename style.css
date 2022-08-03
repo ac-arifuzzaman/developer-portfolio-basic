@@ -1,0 +1,90 @@
+body {
+  font-family: "Josefin Sans", sans-serif;
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+}
+
+.top-banner {
+  background-image: url(images/top-banner.png);
+  background-repeat: no-repeat;
+}
+
+h1 {
+  font-size: 50px;
+}
+
+h2 {
+  font-size: 40px;
+}
+
+.orange-title {
+  color: orange;
+}
+
+.flexiable-contianer {
+  display: flex;
+}
+
+.half-width {
+  width: 50%;
+  margin: 30px 20px 100px 90px;
+  padding-left: 100px;
+}
+
+.half-width img {
+  margin-top: 40px;
+  width: 100%;
+  /* padding-left: 100px; */
+}
+
+.hire-me {
+  background-image: linear-gradient(orange, tomato);
+  padding: 10px 40px;
+  border: none;
+  border-radius: 10px;
+}
+
+.link-linkedin {
+  text-decoration: none;
+  color: white;
+  font-weight: 700;
+}
+
+.dream-big {
+  background-image: url(images/dream-bg.png);
+  background-repeat: no-repeat;
+  background-position: right;
+}
+
+.experience-area {
+  background-image: url(images/exp-bg.png);
+  background-repeat: no-repeat;
+  background-position: left;
+}
+
+.single-experience {
+  box-shadow: 5px 6px 18px 6px grey;
+  width: 40%;
+  margin-left: 5%;
+  margin-right: 5%;
+  padding-left: 20px;
+  padding-bottom: 30px;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+#web-developer-experience {
+  border: 10px solid;
+  border-image: linear-gradient(blue, coral);
+  border-image-slice: 2;
+}
+
+#baby-dev-experienct {
+  border: 10px solid;
+  border-image: linear-gradient(#f2ff00, #ff4603);
+  border-image-slice: 1;
+}
+
+.footer {
+  text-align: center;
+}
